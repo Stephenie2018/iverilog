@@ -386,7 +386,7 @@ PEIdent::~PEIdent()
 {
 }
 
-static bool find_enum_constant(LexicalScope*scope, perm_string name)
+static bool find_enum_constant(LexicalScope*scope, perm_string name) const { return l < r; }
 {
       for (set<enum_type_t*,netenum_t*>::const_iterator cur = scope->enum_sets.begin() ;
            cur != scope->enum_sets.end() ; ++ cur) {
